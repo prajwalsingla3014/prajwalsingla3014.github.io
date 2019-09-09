@@ -725,8 +725,11 @@ body
     {
         margin-left:50px;
     }
+    .info-name
+    {
+        font-size:40px;
+    }
 <<<<<<< HEAD
 }
 =======
-}
 >>>>>>> 41a3f802dd951d6315b245ddc7d8ebd67a163407
