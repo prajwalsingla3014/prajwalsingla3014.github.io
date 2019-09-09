@@ -702,3 +702,10 @@ body
 {
     color:#f42c18;
 }
+@media screen and (max-width:576px)
+{
+    .avatar
+    {
+        margin-left:-10px;
+    }
+} 
