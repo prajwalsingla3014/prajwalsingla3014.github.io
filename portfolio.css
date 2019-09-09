@@ -161,7 +161,7 @@ body
     width:110px;
     height:150px;
     display:block;
-    margin-left:auto;ti
+    margin-left:auto;
     margin-right:auto;
     margin-top:10px;
 }
@@ -591,14 +591,11 @@ body
     }
 
 }*/
-=======
-}*/  
->>>>>>> 41a3f802dd951d6315b245ddc7d8ebd67a163407
 .work
 {
     font-size:60px;
     color:#343a40;
-    text-align:center;
+    text-align: center;
     font-family:'Livvic',sans-serif;
     font-weight: bolder;
 }
@@ -710,13 +707,10 @@ body
     {
         width:100%;
     }
-<<<<<<< HEAD
     .container-fluid
     {
         width:100%;
     }
-=======
->>>>>>> 41a3f802dd951d6315b245ddc7d8ebd67a163407
     .avatar
     {
       margin-left:-10px;  
@@ -734,7 +728,4 @@ body
         font-size:60px;
         width:100%;
     }
-<<<<<<< HEAD
 }
-=======
->>>>>>> 41a3f802dd951d6315b245ddc7d8ebd67a163407
