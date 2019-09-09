@@ -708,4 +708,9 @@ body
     {
         margin-left:-10px;
     }
+    .info
+    {
+        width:100%;
+        font-size:40px;
+    }
 } 
