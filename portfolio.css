@@ -238,7 +238,7 @@ body
     font-family:'Acme',sans-serif;
     color:#343a40;
 }
-@media only screen and (max-width:575px)
+/*@media only screen and (max-width:575px)
 {
     .skill-box
     {
@@ -492,7 +492,7 @@ body
         width:325px;
         margin-top:50px;
     }
-}  
+}*/  
 .work
 {
     font-size:60px;
