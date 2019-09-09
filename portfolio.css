@@ -604,3 +604,18 @@ body
 {
     color:#f42c18;
 }
+@media only screen and (max-width:576px)
+{
+    body
+    {
+        width:100%;
+    }
+    .avatar
+    {
+      margin-left:-10px;  
+    }
+    .navbar-toggler-icon
+    {
+        margin-left:50px;
+    }
+}
