@@ -160,7 +160,7 @@ body
     width:110px;
     height:150px;
     display:block;
-    margin-left:auto;
+    margin-left:auto;ti
     margin-right:auto;
     margin-top:10px;
 }
@@ -705,6 +705,10 @@ body
     {
         width:100%;
     }
+    .container-fluid
+    {
+        width:100%;
+    }
     .avatar
     {
       margin-left:-10px;  
@@ -712,9 +716,5 @@ body
     .navbar-toggler-icon
     {
         margin-left:50px;
-    }
-    .info-name
-    {
-        width:100%;
     }
 }
