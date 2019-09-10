@@ -550,7 +550,7 @@ body
     .phone-style
     {
         left:40%;
-        top:85%;
+        margin-top:50px;
         font-size:40px;
         position: relative;  
     }
@@ -558,7 +558,7 @@ body
     {
         left:29%;
         position: relative;
-        margin-top:105px;
+        margin-top:-35px;
         width:60%;
         font-size:25px;
     }
