@@ -760,7 +760,7 @@ body
     }
     .skill-box
     {
-        height:145%;
+        height:115%;
     }
     .skill-box1
     {
@@ -848,8 +848,8 @@ body
     }
     .skill-img7
     {
-        width:70px;
-        height:70px;
+        width:80px;
+        height:80px;
     }
     .skill-img8
     {
@@ -872,9 +872,9 @@ body
         margin-left:-10px;
         margin-top:-30px;
     }
-    /*.mail-style
+    .mail-style
     {
-        left:40%;
+        left:37%;
         font-size:45px;
         position: relative;
     }
@@ -882,22 +882,40 @@ body
     {
         font-size:25px;
         width:50%;
-        left:28%;
+        left:26%;
         position: relative;
     }
     .mail-name
     {
         font-size:20px;
         width:90%;
-        left:13%;
+        left:7%;
         position: relative;
     }
     .phone-style
     {
-        left:45%;
-        top:80%;
+        left:40%;
+        top:40%;
         font-size:40px;
         position: relative;  
-    }*/
+    }
+    .phone-info
+    {
+        left:32.5%;
+        position: relative;
+        margin-top:105px;
+        width:60%;
+        font-size:25px;
+    }
+    .phone-no
+    {
+        left:127%;
+        position: relative;
+        width:50%;
+        margin-top:-17px;
+        font-size:20px;
+        color:#ff5d00;
+        font-family:'Acme',sans-serif;
+    }
 } 
 
