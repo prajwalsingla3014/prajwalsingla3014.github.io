@@ -708,7 +708,7 @@ body
 {
     color:#f42c18;
 }
-@media screen and (max-width:357px)
+@media screen and (max-width:360px)
 {
     .container-fluid
     {
@@ -730,7 +730,7 @@ body
     .info-name
     {
         width:100%;
-        font-size:30px;
+        font-size:35px;
         text-align:left;
         margin-top:15px;
     }
@@ -747,12 +747,12 @@ body
     .btn-style
     {
         width:60%;
-        height:5%;
+        height:7%;
         margin-top:10px;
     }
     #download
     {
-        font-size:17px;
+        font-size:19px;
     }
     .skill
     {
@@ -764,87 +764,87 @@ body
     }
     .skill-box1
     {
-        height:135px;
-        width:135px;
+        height:140px;
+        width:140px;
         margin-left:-10px;
     }
     .skill-box2
     {
-        height:135px;
-        width:135px;
+        height:140px;
+        width:140px;
         margin-left:-10px;
     }
     .skill-box3
     {
-        height:135px;
-        width:135px;
+        height:140px;
+        width:140px;
         margin-top:40px;
         margin-left:-10px;
     }
     .skill-box4
     {
-        height:135px;
-        width:135px;
+        height:140px;
+        width:140px;
         margin-top:40px;
         margin-left:-10px;
     }
     .skill-box5
     {
-        height:135px;
-        width:135px;
+        height:140px;
+        width:140px;
         margin-top:-25px;
         margin-left:-10px;
     }
     .skill-box6
     {
-        height:135px;
-        width:135px;
+        height:140px;
+        width:140px;
         margin-top:-25px;
         margin-left:-10px;
     }
     .skill-box7
     {
-        height:135px;
-        width:135px;
+        height:140px;
+        width:140px;
         margin-top:40px;
         margin-left:-10px;
     }
     .skill-box8
     {
-        height:135px;
-        width:135px;
+        height:140px;
+        width:140px;
         margin-top:40px;
         margin-left:-10px;
     }
     .skill-img1
     {
-        width:50px;
-        height:70px;
+        width:60px;
+        height:80px;
     }
     .skill-img2
     {
-        width:50px;
-        height:70px;
+        width:60px;
+        height:80px;
     }
     .skill-img3
     {
-        width:70px;
-        height:70px;
+        width:80px;
+        height:80px;
     }
     .skill-img4
     {
-        width:70px;
-        height:70px;
+        width:80px;
+        height:80px;
     }
     .skill-img5
     {
-        width:90px;
-        height:60px;
+        width: 100px;
+        height:70px;
     }
     .skill-img6
     {
-        width:90px;
-        height:70px;
+        width:100px;
+        height:80px;
     }
     .skill-img7
     {
@@ -853,8 +853,8 @@ body
     }
     .skill-img8
     {
-        width:70px;
-        height:70px;
+        width:80px;
+        height:80px;
     }
     .skill-info
     {
@@ -864,7 +864,7 @@ body
     .skill-info1
     {
         font-size:25px;
-        margin-top:20px;
+        margin-top:19px;
     }
     .contact-style
     {
@@ -872,7 +872,7 @@ body
         margin-left:-10px;
         margin-top:-30px;
     }
-    .mail-style
+    /*.mail-style
     {
         left:40%;
         font-size:45px;
@@ -898,6 +898,6 @@ body
         top:80%;
         font-size:40px;
         position: relative;  
-    }
+    }*/
 } 
 
