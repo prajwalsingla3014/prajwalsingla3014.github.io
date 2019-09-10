@@ -14,17 +14,17 @@ body
     width:70px;
     height:80px;
 }
-.header-style
+.navbar-nav
 {
     font-size:25px;
     padding:2px;
-    margin-left:640px; 
+    margin-left:640px;
 }
-.header-styles
+.nav-item a
 {
     font-size:25px;
-    padding:6px;
-    font-family: 'Livvic', sans-serif; 
+    padding:1.5rem !important;
+    font-family:'Livvic',sans-serif;
 }
 .info
 {
@@ -373,6 +373,20 @@ body
         width:60px;
         height:65px;
     }
+    .navbar-toggler-icon
+    {
+        font-size:15px;
+    }
+    .navbar-nav
+    {
+        font-size:20px;
+        margin-left:110px;
+    }
+    .nav-item a
+    {
+        font-size:20px;
+        padding:0.5rem !important;
+    }
     .info
     {
         width:100%;
@@ -598,5 +612,4 @@ body
         letter-spacing:1.5pt;
         white-space: nowrap;
     }
-} 
-
+}
