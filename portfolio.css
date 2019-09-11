@@ -260,6 +260,147 @@ body
     font-family:'Livvic',sans-serif;
     font-weight: bolder;
 }
+.accordion1
+{
+    background-color:#ff5d00;
+    color:#343a40;
+    cursor: pointer;
+    padding:7px;
+    width:50%;
+    margin-left:330px;
+    border:none;
+    text-align:center;
+    outline:none;
+    font-size:35px;
+    transition:.4s;
+    font-family:'Acme',sans-serif;
+}
+.accordion1::after
+{
+    content:'\002B';
+    color:#343a40;
+    font-weight:bold;
+    float:right;
+}
+.active::after
+{
+    content:'\2212';
+    font-size:35px;
+}
+.panel
+{
+    padding:0 18px;
+    background-color:#343a40;
+    color:white;
+    max-height:0;
+    width:50%;
+    margin-left:320px;
+    overflow:hidden;
+    transition:max-height 0.2s ease-out; 
+}
+#work-text
+{
+    margin-top:10px;
+}  
+.project-link
+{
+    text-decoration:none;
+}
+.project-link:hover
+{
+    text-decoration:none;
+}
+#project-text
+{
+    color:white;
+    font-size:22px;
+    margin-left:260px;
+    text-decoration:none;
+}
+.accordion2
+{
+    background-color:#ff5d00;
+    color:#343a40;
+    cursor: pointer;
+    padding:7px;
+    width:50%;
+    margin-top:10px;
+    margin-left:330px;
+    border:none;
+    text-align:center;
+    outline:none;
+    font-size:35px;
+    transition:.4s;
+    font-family:'Acme',sans-serif;
+}
+.accordion2::after
+{
+    content:'\002B';
+    color:#343a40;
+    font-weight: bold;
+    float:right;
+}
+.active::after
+{
+    content:'\2212';
+    font-size:35px;
+}
+.accordion3
+{
+    background-color:#ff5d00;
+    color:#343a40;
+    cursor: pointer;
+    padding:7px;
+    width:50%;
+    margin-top:10px;
+    margin-left:330px;
+    border:none;
+    text-align:center;
+    outline:none;
+    font-size:35px;
+    transition:.4s;
+    font-family:'Acme',sans-serif;
+}
+.accordion3::after
+{
+    content:'\002B';
+    color:#343a40;
+    font-weight: bold;
+    float:right;
+} 
+.active::after
+{
+    content:'\2212';
+    font-size:35px;
+}
+.accordion4
+{
+    background-color:#ff5d00;
+    color:#343a40;
+    cursor: pointer;
+    padding:7px;
+    width:50%;
+    margin-top:10px;
+    margin-left:330px;
+    border:none;
+    text-align:center;
+    outline:none;
+    font-size:35px;
+    transition:.4s;
+    font-family:'Acme',sans-serif;
+}
+.accordion4::after
+{
+    content:'\002B';
+    color:#343a40;
+    font-weight: bold;
+    float:right;
+} 
+.active::after
+{
+    content:'\2212';
+    font-size:35px;
+}        
 .contact-style
 {
     font-size:50px;
@@ -353,10 +494,10 @@ body
 {
     color:white;
     font-size:25px;
-    margin-left:400px;
+    margin-left:450px;
     margin-top:10px;
     font-family:'Acme',sans-serif;
-    letter-spacing:4pt;
+    letter-spacing:3pt;
 }
 .heart-style
 {
@@ -537,7 +678,46 @@ body
         font-size:25px;
         margin-top:19px;
     }
-    .contact-style
+    .work
+    {
+        font-size:40px;
+    }
+    .accordion1
+    {
+        width:90%;
+        height:10%;
+        margin-left:15px;
+        font-size:22px;
+    }
+    .accordion1::after
+    {
+        content:'\002B';
+        color:#343a40;
+        font-weight:bold;
+        float:right;
+    }
+    .active::after
+    {
+        content:'\2212';
+        font-size:22px;
+    }
+    .panel
+    {
+        padding:0 18px;
+        width:90%;
+        margin-left:15px;
+    }
+    #work-text
+    {
+        margin-top:10px;
+        font-size:10px;
+    } 
+    #project-text
+    {
+        font-size:15px;
+        margin-left:90px;
+    }
+        .contact-style
     {
         font-size:40px;
         margin-left:-10px;

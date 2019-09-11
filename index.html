@@ -107,8 +107,28 @@
         </div>
         <div class="container-fluid" id="work">
             <h1 class="work p-4">Work</h1>
+            <button class="accordion1">Library Management System</button>
+            <div class="panel">
+                <p id="work-text">This project is about creating a management system for library.At starting there is login authentication to check whether the person is existing user to library or not.Next there is search portal to search books on the basis of author name,book name and publication name.There is functionality for keeping books on hold and it will display count of book as follows.</p>
+                <a href="https://github.com/prajwalsingla3014/Library-System" target="_blank" class="project-link"><span id="project-text">Visit Here</span></a>
+            </div>
+            <button class="accordion2">Bill Split</button>
+            <div class="panel">
+                <p id="work-text">This project is built for splitting the bill of people.We go on trip with friends and after coming back the main task is to split bill.So this project helps in splitting the bill.</p>
+                <a href="https://github.com/prajwalsingla3014/Library-System" target="_blank" class="project-link"><span id="project-text">Visit Here</span></a>
+            </div>
+            <button class="accordion3">Best Route</button>
+            <div class="panel">
+                <p id="work-text">This project is built for finding the best route for airplane between cities.Built using data-structures and algorithms.It uses Dijkstra algorithm for finding shortest possible route between two cities.</p>
+                <a href="https://github.com/prajwalsingla3014/Library-System" target="_blank" class="project-link"><span id="project-text">Visit Here</span></a>
+            </div>
+            <button class="accordion4">City Tours</button>
+            <div class="panel">
+                <p id="work-text">This project is built on React a JavaScript library.In this project we are going through various cities and their attractions.There is an option of info and after clicking on the info icon we can see the info that attarction.There is a close button which can delete particular city entry.</p>
+                <a href="https://github.com/prajwalsingla3014/city-tours" target="_blank" class="project-link"><span id="project-text">Visit Here</span></a>
+            </div>
         </div>
-        <div class="container-fluid bg-dark" id="contact">
+        <div class="container-fluid bg-dark mt-5" id="contact">
             <h1 class="p-5 contact-style">Contact</h1>
             <footer>
                 <div class="row">
@@ -164,6 +184,85 @@
                 }, 500);
              });
         });
+        </script>
+        <script>
+            var acc = document.getElementsByClassName("accordion1");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+              });
+            }
+        </script>
+        <script>
+            var acc = document.getElementsByClassName("accordion2");
+            var i;
+                    
+            for (i = 0; i < acc.length; i++)
+            {
+                acc[i].addEventListener("click", function()
+                {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight)
+                    {
+                        panel.style.maxHeight = null;
+                    }
+                    else
+                    {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    } 
+                });
+            }
+        </script>
+        <script>
+            var acc = document.getElementsByClassName("accordion3");
+            var i;
+                    
+            for (i = 0; i < acc.length; i++)
+            {
+                acc[i].addEventListener("click", function()
+                {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight)
+                    {
+                        panel.style.maxHeight = null;
+                    }
+                    else
+                    {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    } 
+                });
+            }
+        </script>
+        <script>
+            var acc = document.getElementsByClassName("accordion4");
+            var i;
+                    
+            for (i = 0; i < acc.length; i++)
+            {
+                acc[i].addEventListener("click", function()
+                {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight)
+                    {
+                        panel.style.maxHeight = null;
+                    }
+                    else
+                    {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    } 
+                });
+            }
         </script>
     </body>
 </html>
