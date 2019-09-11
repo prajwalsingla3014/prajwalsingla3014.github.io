@@ -80,10 +80,6 @@ body
 {
     text-decoration:none;
 }
-.skill
-{
-    transition-delay: 1000;
-}
 .skill-box
 {
     width:100%;
@@ -99,7 +95,7 @@ body
     text-align: center;
     font-size:60px;
     font-family:'Acme',sans-serif;
-    letter-spacing: 5px;
+    letter-spacing:1pt;
     font-weight: bolder;
     color:#343a40;
 }
@@ -294,7 +290,7 @@ body
     color:white;
     max-height:0;
     width:50%;
-    margin-left:320px;
+    margin-left:330px;
     overflow:hidden;
     transition:max-height 0.2s ease-out; 
 }
@@ -559,6 +555,7 @@ body
         width:60%;
         height:8%;
         margin-top:10px;
+        border-color:#ff5d00;
     }
     #downloads
     {
@@ -569,6 +566,7 @@ body
     .skill
     {
         font-size:40px;
+        letter-spacing:1pt;
     }
     .skill-box
     {
