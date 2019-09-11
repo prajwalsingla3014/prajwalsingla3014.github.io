@@ -689,13 +689,6 @@ body
         margin-left:15px;
         font-size:22px;
     }
-    .accordion1::after
-    {
-        content:'\002B';
-        color:#343a40;
-        font-weight:bold;
-        float:right;
-    }
     .active::after
     {
         content:'\2212';
@@ -715,9 +708,45 @@ body
     #project-text
     {
         font-size:15px;
-        margin-left:90px;
+        margin-left:100px;
     }
-        .contact-style
+    .accordion2
+    {
+        width:90%;
+        height:10%;
+        margin-left:15px;
+        font-size:22px;
+    }
+    .active::after
+    {
+        content:'\2212';
+        font-size:22px;
+    }
+    .accordion3
+    {
+        width:90%;
+        height:10%;
+        margin-left:15px;
+        font-size:22px;
+    }
+    .active::after
+    {
+        content:'\2212';
+        font-size:22px;
+    }
+    .accordion4
+    {
+        width:90%;
+        height:10%;
+        margin-left:15px;
+        font-size:22px;
+    }
+    .active::after
+    {
+        content:'\2212';
+        font-size:22px;
+    }
+    .contact-style
     {
         font-size:40px;
         margin-left:-10px;
