@@ -686,7 +686,7 @@ body
     {
         width:90%;
         height:10%;
-        margin-left:15px;
+        margin-left:4.3vw;
         font-size:22px;
     }
     .active::after
@@ -698,7 +698,7 @@ body
     {
         padding:0 18px;
         width:90%;
-        margin-left:15px;
+        margin-left:4.3vw;
     }
     #work-text
     {
@@ -708,13 +708,13 @@ body
     #project-text
     {
         font-size:15px;
-        margin-left:100px;
+        margin-left:27vw;
     }
     .accordion2
     {
         width:90%;
         height:10%;
-        margin-left:15px;
+        margin-left:4.3vw;
         font-size:22px;
     }
     .active::after
@@ -726,7 +726,7 @@ body
     {
         width:90%;
         height:10%;
-        margin-left:15px;
+        margin-left:4.3vw;
         font-size:22px;
     }
     .active::after
@@ -738,7 +738,7 @@ body
     {
         width:90%;
         height:10%;
-        margin-left:15px;
+        margin-left:4.3vw;
         font-size:22px;
     }
     .active::after
@@ -749,7 +749,6 @@ body
     .contact-style
     {
         font-size:40px;
-        margin-left:-10px;
         margin-top:-30px;
     }
     .mail-style
@@ -818,7 +817,7 @@ body
     {
         font-size:17px;
         width:100%;
-        margin-left:10px;
+        margin-left:3vw;
         margin-top:-140px;
         letter-spacing:1.5pt;
         white-space: nowrap;
