@@ -13,13 +13,13 @@ body
     border-radius: 50%;
     width:75px;
     height:75px;
-    margin-left:-15px;
+    margin-left:-1vw;
 }
 .navbar-nav
 {
     font-size:25px;
     padding:2px;
-    margin-left:640px;
+    margin-left:48vw;
 }
 .nav-item a
 {
@@ -106,11 +106,11 @@ body
 }
 .row
 {
-    margin-left:10px;
+    margin-left:1vw;
 }
 .row-2
 {
-    margin-top:60px;
+    margin-top:6vw;
 }
 .skill-box1
 {
@@ -263,7 +263,7 @@ body
     cursor: pointer;
     padding:7px;
     width:50%;
-    margin-left:330px;
+    margin-left:24vw;
     border:none;
     text-align:center;
     outline:none;
@@ -290,7 +290,7 @@ body
     color:white;
     max-height:0;
     width:50%;
-    margin-left:330px;
+    margin-left:24vw;
     overflow:hidden;
     transition:max-height 0.2s ease-out; 
 }
@@ -310,7 +310,7 @@ body
 {
     color:white;
     font-size:22px;
-    margin-left:260px;
+    margin-left:20vw;
     text-decoration:none;
 }
 .accordion2
@@ -321,7 +321,7 @@ body
     padding:7px;
     width:50%;
     margin-top:10px;
-    margin-left:330px;
+    margin-left:24vw;
     border:none;
     text-align:center;
     outline:none;
@@ -349,7 +349,7 @@ body
     padding:7px;
     width:50%;
     margin-top:10px;
-    margin-left:330px;
+    margin-left:24vw;
     border:none;
     text-align:center;
     outline:none;
@@ -377,7 +377,7 @@ body
     padding:7px;
     width:50%;
     margin-top:10px;
-    margin-left:330px;
+    margin-left:24vw;
     border:none;
     text-align:center;
     outline:none;
@@ -405,7 +405,7 @@ body
     color:#ff5d00;
     font-family:'Livvic',sans-serif;
     letter-spacing:2px;
-    margin-left:30px;
+    margin-left:2vw;
 }
 .mail-style
 {
@@ -490,8 +490,8 @@ body
 {
     color:white;
     font-size:25px;
-    margin-left:450px;
-    margin-top:10px;
+    margin-left:33vw;
+    margin-top:20px;
     font-family:'Acme',sans-serif;
     letter-spacing:3pt;
 }
@@ -507,7 +507,7 @@ body
     }
     .avatar
     {
-        margin-left:-20px;
+        margin-left:-5vw;
         margin-top:5px;
         width:55px;
         height:55px;
@@ -519,7 +519,7 @@ body
     .navbar-nav
     {
         font-size:20px;
-        margin-left:110px;
+        margin-left:30vw;
     }
     .nav-item a
     {
