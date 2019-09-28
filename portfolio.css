@@ -520,7 +520,7 @@ body
     .navbar-nav
     {
         font-size:20px;
-        margin-left:30vw;
+        margin-left:-12vw;
     }
     .nav-item a
     {
@@ -1150,16 +1150,17 @@ body
         white-space: nowrap;
     }
 }
-@media screen and (min-width:1800px)
+@media screen and (min-width:1367px) and (max-width:1800px)
 {
     body
     {
         overflow: scroll;
+        max-width:100%;
         overflow-x:hidden;
     }
     .container-fluid{
-        overflow-x: hidden;
-        width:100%;
+        max-width:100%;
+        overflow-x:hidden;
     }
     .avatar
     {
@@ -1174,7 +1175,7 @@ body
         font-size:25px;
         padding:2px;
         position: relative;
-        left:38%;
+        left:39%;
     }
     .nav-item a
     {
@@ -1204,8 +1205,8 @@ body
     }
     .profile-info
     {
-        font-size:40px;
-        text-align:center;
+        font-size:20px;
+        text-align:justify;
         font-family: 'Livvic', sans-serif;
         color:#efddd8
     }
