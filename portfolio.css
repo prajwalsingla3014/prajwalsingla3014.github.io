@@ -19,7 +19,8 @@ body
 {
     font-size:25px;
     padding:2px;
-    margin-left:48vw;
+    position: relative;
+    left:53%;
 }
 .nav-item a
 {
@@ -499,7 +500,7 @@ body
 {
     color:#f42c18;
 }
-@media screen and (max-width:576px)
+@media screen and (max-width:360px)
 {
     .container-fluid
     {
@@ -818,6 +819,329 @@ body
         font-size:17px;
         width:100%;
         margin-left:3vw;
+        margin-top:-140px;
+        letter-spacing:1.5pt;
+        white-space: nowrap;
+    }
+}
+@media screen and (min-width:361px) and (max-width:576px)
+{
+    .container-fluid
+    {
+        overflow-y:hidden;
+    }
+    .avatar
+    {
+        margin-left:-5vw;
+        margin-top:5px;
+        width:55px;
+        height:55px;
+    }
+    .navbar-toggler-icon
+    {
+        font-size:15px;
+    }
+    .navbar-nav
+    {
+        font-size:20px;
+        margin-left:30vw;
+    }
+    .nav-item a
+    {
+        font-size:20px;
+        padding:0.5rem !important;
+    }
+    .info
+    {
+        width:100%;
+        font-size:28px;
+        text-align:justify;
+        margin-top:35px;
+    }
+    .info-name
+    {
+        width:100%;
+        font-size:35px;
+        text-align:left;
+        margin-top:15px;
+    }
+    .profile-info
+    {
+        font-size: 18px;
+        text-align:left;
+    }
+    .profile-about
+    {
+        font-size: 18px;
+        text-align:left;
+    }
+    .btn-style
+    {
+        width:50%;
+        height:8%;
+        margin-top:10px;
+        border-color:#ff5d00;
+        text-decoration:none;
+        -webkit-tap-highlight-color: transparent;
+    }
+    #downloads
+    {
+        font-size:17px;
+        width:100%;        
+    }
+    .skill
+    {
+        font-size:40px;
+        letter-spacing:1pt;
+    }
+    .skill-box
+    {
+        height:145%;
+    }
+    .skill-box1
+    {
+        height:140px;
+        width:140px;
+        margin-left:2vw;
+    }
+    .skill-box2
+    {
+        height:140px;
+        width:140px;
+        margin-left:-2vw;
+    }
+    .skill-box3
+    {
+        height:140px;
+        width:140px;
+        margin-top:40px;
+        margin-left:2vw;
+    }
+    .skill-box4
+    {
+        height:140px;
+        width:140px;
+        margin-top:40px;
+        margin-left:-2vw;
+    }
+    .skill-box5
+    {
+        height:140px;
+        width:140px;
+        margin-top:20px;
+        margin-left:2vw;
+    }
+    .skill-box6
+    {
+        height:140px;
+        width:140px;
+        margin-top:20px;
+        margin-left:-2vw;
+    }
+    .skill-box7
+    {
+        height:140px;
+        width:140px;
+        margin-top:40px;
+        margin-left:2vw;
+    }
+    .skill-box8
+    {
+        height:140px;
+        width:140px;
+        margin-top:40px;
+        margin-left:-2vw;
+    }
+    .skill-img1
+    {
+        width:60px;
+        height:80px;
+    }
+    .skill-img2
+    {
+        width:60px;
+        height:80px;
+    }
+    .skill-img3
+    {
+        width:80px;
+        height:80px;
+    }
+    .skill-img4
+    {
+        width:80px;
+        height:80px;
+    }
+    .skill-img5
+    {
+        width: 100px;
+        height:70px;
+    }
+    .skill-img6
+    {
+        width:100px;
+        height:80px;
+    }
+    .skill-img7
+    {
+        width:80px;
+        height:80px;
+    }
+    .skill-img8
+    {
+        width:80px;
+        height:80px;
+    }
+    .skill-info
+    {
+        font-size:25px;
+        margin-top:10px;
+    }
+    .skill-info1
+    {
+        font-size:25px;
+        margin-top:19px;
+    }
+    .work
+    {
+        font-size:40px;
+    }
+    .accordion1
+    {
+        width:90%;
+        height:10%;
+        margin-left:4.3vw;
+        font-size:22px;
+    }
+    .active::after
+    {
+        content:'\2212';
+        font-size:22px;
+    }
+    .panel
+    {
+        padding:0 18px;
+        width:90%;
+        margin-left:4.3vw;
+    }
+    #work-text
+    {
+        margin-top:10px;
+        font-size:10px;
+    } 
+    #project-text
+    {
+        font-size:15px;
+        margin-left:27vw;
+    }
+    .accordion2
+    {
+        width:90%;
+        height:10%;
+        margin-left:4.3vw;
+        font-size:22px;
+    }
+    .active::after
+    {
+        content:'\2212';
+        font-size:22px;
+    }
+    .accordion3
+    {
+        width:90%;
+        height:10%;
+        margin-left:4.3vw;
+        font-size:22px;
+    }
+    .active::after
+    {
+        content:'\2212';
+        font-size:22px;
+    }
+    .accordion4
+    {
+        width:90%;
+        height:10%;
+        margin-left:4.3vw;
+        font-size:22px;
+    }
+    .active::after
+    {
+        content:'\2212';
+        font-size:22px;
+    }
+    .contact-style
+    {
+        font-size:40px;
+        margin-top:-30px;
+    }
+    .mail-style
+    {
+        left:37%;
+        font-size:45px;
+        position: relative;
+    }
+    .mail-info
+    {
+        font-size:25px;
+        width:50%;
+        left:27%;
+        position: relative;
+    }
+    .mail-name
+    {
+        font-size:20px;
+        width:90%;
+        left:10%;
+        position: relative;
+    }
+    .phone-style
+    {
+        left:40%;
+        margin-top:50px;
+        font-size:40px;
+        position: relative;  
+    }
+    .phone-info
+    {
+        left:31%;
+        position: relative;
+        margin-top:5px;
+        width:60%;
+        font-size:25px;
+    }
+    .phone-no
+    {
+        left:14%;
+        position: relative;
+        margin-top:-15px;
+        width:100%;
+        font-size:20px;
+    }
+    .linkedin-logo
+    {
+        font-size:30px;
+        left:-6%;
+        position: relative;
+    }
+    .github-logo
+    {
+        font-size:30px;
+        left:-9%;
+        position: relative;
+    }
+    .facebook-logo
+    {
+        font-size:30px;
+        left:65%;
+        top:-45%;
+        position: relative;
+    }
+    .portal-made
+    {
+        font-size:17px;
+        width:100%;
+        margin-left:7vw;
         margin-top:-140px;
         letter-spacing:1.5pt;
         white-space: nowrap;
